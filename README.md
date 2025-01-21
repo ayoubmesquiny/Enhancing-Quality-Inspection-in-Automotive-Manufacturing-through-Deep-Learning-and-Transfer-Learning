@@ -4,6 +4,8 @@
 
 Ensuring quality control and accurate defect detection are critical in the automotive manufacturing industry. This project introduces a deep learning-based approach leveraging transfer learning to automate defect detection process for Terminal Crimp Cross-Section.
 
+---
+
 ## Key Features
 
 1. Utilizes pre-trained Convolutional Neural Networks (CNNs) such as DenseNet121, VGG19, and others.
@@ -14,6 +16,8 @@ Ensuring quality control and accurate defect detection are critical in the autom
 
 4. Deploys models in a real-time production environment with a user-friendly GUI for the Quality team.
 
+---
+
 ## Repository Contents
 
 src: Scripts for preprocessing, training, and evaluating the CNN models.
@@ -23,6 +27,8 @@ app: A user-friendly interface for real-time deployment in production environmen
 Documentation: Detailed descriptions of the methods, metrics, and experimental setup.
 
 Sample Data: Example datasets for terminal crimp cross-sections (restricted due to proprietary limitations).
+
+---
 
 ## Requirements
 
@@ -35,6 +41,25 @@ Machine 2: Debian 11, 8 CPUs, 15 GB RAM, 140 GB Disk, On-premise server.
 ### Software
 
 Python Libraries: TensorFlow, Keras, scikit-learn, seaborn, and other dependencies listed in ```requirements.txt```.
+
+---
+
+## Installation
+
+### Clone the repository:
+
+```git clone https://github.com/your-username/quality-inspection-automotive.git
+cd quality-inspection-automotive```
+
+### Install dependencies:
+
+```pip install -r requirements.txt```
+
+### Launch the Streamlit application:
+
+```streamlit run your_script.py```
+
+---
 
 ## Future Work
 
