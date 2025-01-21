@@ -20,11 +20,11 @@ Ensuring quality control and accurate defect detection are critical in the autom
 
 ## Repository Contents
 
-  **src**: Scripts for preprocessing, training, and evaluating the CNN models.
+- **src**: Scripts for preprocessing, training, and evaluating the CNN models.
 
-  **app**: A user-friendly interface for real-time deployment in production environments.
+- **app**: A user-friendly interface for real-time deployment in production environments.
 
-  **Documentation**: Detailed descriptions of the methods, metrics, and experimental setup.
+- **Documentation**: Detailed descriptions of the methods, metrics, and experimental setup.
 
   **Sample Data**: Example datasets for terminal crimp cross-sections (restricted due to proprietary limitations).
 
@@ -34,13 +34,13 @@ Ensuring quality control and accurate defect detection are critical in the autom
 
 ### Hardware
 
-  **Machine 1:** Ubuntu 22, 16 CPUs, 16 GB RAM, 100 GB Disk, Azure-based.
+- **Machine 1:** Ubuntu 22, 16 CPUs, 16 GB RAM, 100 GB Disk, Azure-based.
 
-  **Machine 2:** Debian 11, 8 CPUs, 15 GB RAM, 140 GB Disk, On-premise server.
+- **Machine 2:** Debian 11, 8 CPUs, 15 GB RAM, 140 GB Disk, On-premise server.
 
 ### Software
 
-  **Python Libraries:** TensorFlow, Keras, scikit-learn, seaborn, and other dependencies listed in ```requirements.txt```.
+- **Python Libraries:** TensorFlow, Keras, scikit-learn, seaborn, and other dependencies listed in ```requirements.txt```.
 
 ---
 
@@ -66,8 +66,8 @@ streamlit run your_script.py
 
 ## Future Work
 
-Incorporating object detection models (R-CNN, YOLO) for precise defect localization.
+- Incorporating object detection models (R-CNN, YOLO) for precise defect localization.
 
-Expanding datasets to cover additional manufacturing applications.
+- Expanding datasets to cover additional manufacturing applications.
 
-Enhancing model interpretability for better insights into defect classification.
+- Enhancing model interpretability for better insights into defect classification.
