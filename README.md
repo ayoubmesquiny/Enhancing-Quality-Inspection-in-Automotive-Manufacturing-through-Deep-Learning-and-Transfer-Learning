@@ -47,20 +47,20 @@ Python Libraries: TensorFlow, Keras, scikit-learn, seaborn, and other dependenci
 ## Installation
 
 ### Clone the repository:
-
 ```bash
 git clone https://github.com/your-username/quality-inspection-automotive.git
-cd quality-inspection-automotive```
+cd quality-inspection-automotive
+```
 
 ### Install dependencies:
-
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ### Launch the Streamlit application:
-
 ```bash
-streamlit run your_script.py```
+streamlit run your_script.py
+```
 
 ---
 
